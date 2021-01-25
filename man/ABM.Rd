@@ -39,7 +39,7 @@ ABM(
 
 \item{n_iter}{Number of iterations.}
 
-\item{n_cores}{Number of cores for parallelization.}
+\item{n_cores}{Number of cores used in the learning step. For large population and repertoire sizes it may be faster to run the ABM function serially (n_cores = 1) in a parallelized for loop.}
 }
 \value{
 Returns a list of two matrices: (1) the Simpson's diversity from each burn-in year (column) and iteration (row); (2) the summary statistics corresponding to each observed year (subsequent columns) and iteration (row). The returned summary statistics are the proportion of syllables that only appear once, the proportion of the most common syllable type, the number of syllable types, Simpson's diversity index, Shannon's diversity index, Pielou's evenness index, and the exponent of the fitted power-law function to the progeny distribution.
