@@ -1,0 +1,4 @@
+1) clustering.R does hierarchical clustering hybrid tree cut on the syllable data to generate syllable types
+2) analysis.R generates the observed summary statistics and runs the Bayesian logistic regression
+3) simulation_abc.R runs both the simulations and approximate Bayesian computation
+
