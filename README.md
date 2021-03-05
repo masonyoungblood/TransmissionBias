@@ -28,4 +28,4 @@ simulations <- ABM(priors = priors, pop_trends = pop_trends,
 
 For more details about the methods in this package, check out the corresponding manuscript:
 
-Youngblood, M., & Lahti, D. (2020). Content bias in the cultural evolution of house finch song. *In preparation*.
+Youngblood, M., & Lahti, D. (2021). Content bias in the cultural evolution of house finch song. *In preparation*.
