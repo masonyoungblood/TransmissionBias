@@ -1,7 +1,7 @@
 # TransmissionBias
 *Agent-Based Model of Biased Cultural Transmission*
 
-This package includes an agent-based model (ABM) of cultural transmission that simulates the three main forms of transmission bias: content bias, frequency bias, and demonstrator bias. While it was designed to simulate the cultural transmission of birdsong, it is theoretically generalizable to any cultural system where individuals learn a repertoire (or a set) of cultural traits. The ABM is based on [Lachlan et al. (2018)](https://www.nature.com/articles/s41467-018-04728-1), but has been expanded to allow for dynamic population size. The back-end of learning step of the ABM was written in C++ to minimize computation time.
+This package includes an agent-based model (ABM) of cultural transmission that simulates the three main forms of transmission bias: content bias, frequency bias, and demonstrator bias. While it was designed to simulate the cultural transmission of birdsong, it is theoretically generalizable to any cultural system where individuals learn a repertoire (or a set) of cultural traits. The ABM is based on [Lachlan et al. (2018)](https://www.nature.com/articles/s41467-018-04728-1), but has been expanded to allow for dynamic population size. The back-end of the learning step of the ABM was written in C++ to minimize computation time.
 
 To install the package run the following in R:
 
@@ -28,4 +28,4 @@ simulations <- ABM(priors = priors, pop_trends = pop_trends,
 
 For more details about the methods in this package, check out the corresponding manuscript:
 
-Youngblood, M., & Lahti, D. (2021). Content bias in the cultural evolution of house finch song. *In preparation*.
+Youngblood, M., & Lahti, D. (2021). Content bias in the cultural evolution of house finch song. *bioRxiv*: [10.1101/2021.03.05.434109](https://www.biorxiv.org/content/10.1101/2021.03.05.434109v1)
