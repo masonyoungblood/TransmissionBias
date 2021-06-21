@@ -1,4 +1,12 @@
-1) clustering.R does hierarchical clustering hybrid tree cut on the syllable data to generate syllable types
-2) analysis.R generates the observed summary statistics and runs the Bayesian logistic regression
-3) simulation_abc.R runs both the simulations and approximate Bayesian computation
+Analysis files:
+1) 1_clustering.R does hierarchical clustering hybrid tree cut on the syllable data to generate syllable types
+2) 2_analysis.R generates the observed summary statistics and runs the Bayesian logistic regression
+3) 3_simulation_abc.R runs both the simulations and approximate Bayesian computation
 
+Data files:
+- data.RData the analyzed syllable data from Luscinia
+- cbc_trends.RData contains population trends according to the Christmas Bird Count
+- clustering.RData the results of syllable clustering (from 1_clustering.R)
+- hybrid_tree_cut.RData the results of hybrid tree cut (from 1_clustering.R)
+- obs_sum_stats.RData the observed summary statistics for the three analysis years (from 2_analysis.R)
+- predictions.RData the results of approximate Bayesian computation (from 3_simulation_abc.R)
