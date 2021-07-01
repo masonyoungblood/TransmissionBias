@@ -3,14 +3,6 @@ Type: Package
 Title: An Agent-Based Model of Cultural Transmission
 Version: 0.0.0.9000
 Date: 2020-11-24
-Authors@R: 
-    person(given = "Mason",
-           family = "Youngblood",
-           role = c("aut", "cre"),
-           email = "masonyoungblood@gmail.com",
-           comment = c(ORCID = "0000-0003-2123-1716"))
-Maintainer: Mason Youngblood <masonyoungblood@gmail.com>
-Description: One paragraph description of what the package does as one or more full sentences.
 License: `use_gpl3_license()`
 Imports: 
     Rcpp,
